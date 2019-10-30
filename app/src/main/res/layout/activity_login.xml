@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context=".Auth.Login">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1login"
+        android:layout_width="match_parent"
+        android:padding="26dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALVATION MINISTRIES"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/trebucbd"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Digital Library"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="28sp"
+            app:fontFamily="@font/blacksword" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/layout_round"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/loginEmail"
+                    android:hint="Enter Email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#000"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/loginPassword"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#000"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btnLoginl"
+        android:layout_below="@+id/l1login"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_defaultColor="@color/colorAccentnew"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        fancy:fb_text="Login"
+        fancy:fb_textColor="#FFFFFF"
+        fancy:fb_textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fancy:fb_radius="30dp"/>
+        <TextView
+            android:layout_width="398dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Forgotten Password?"
+            android:layout_below="@+id/btnLoginl"
+            android:id="@+id/txtForgotPass"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            app:fontFamily="@font/trebucbi" />
+
+    <TextView
+        android:layout_width="398dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Don't have an account? Sign up"
+        android:layout_below="@+id/btnLoginl"
+        android:id="@+id/txtSignup"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:fontFamily="@font/trebucbi" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

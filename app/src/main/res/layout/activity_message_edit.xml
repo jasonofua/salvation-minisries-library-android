@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context=".Activities.MessageEdit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilMessageNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/whitenew">
+
+            <EditText
+                android:id="@+id/edtMessageNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Message title"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilMessagePriceDollarEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/whitenew">
+
+            <EditText
+                android:id="@+id/edtMessagePriceDollarEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Message Dollar Price"
+                android:inputType="text|numberDecimal"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilMessagePriceNairaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/whitenew">
+
+            <EditText
+                android:id="@+id/edtMessagePriceNairaEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Message Naira Price"
+                android:inputType="text|numberDecimal"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+        </android.support.design.widget.TextInputLayout>
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/messageTypeEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Message Type"
+            android:textColorHint="@color/colorPrimary"
+            app:ms_arrow_tint="@color/colorPrimary"
+            app:ms_background_color="@color/whitenew"
+            app:ms_dropdown_height="wrap_content"
+            app:ms_dropdown_max_height="350dp"
+            app:ms_hint_color="@color/colorPrimary"
+            app:ms_text_color="@color/colorPrimary" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/messageGenreEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Message Genre"
+            android:textColorHint="@color/colorPrimary"
+            app:ms_arrow_tint="@color/colorPrimary"
+            app:ms_background_color="@color/whitenew"
+            app:ms_dropdown_height="wrap_content"
+            app:ms_dropdown_max_height="350dp"
+            app:ms_hint_color="@color/colorPrimary"
+            app:ms_text_color="@color/colorPrimary" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/messageExtensionEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Message Extension"
+            android:textColorHint="@color/colorPrimary"
+            app:ms_arrow_tint="@color/colorPrimary"
+            app:ms_background_color="@color/whitenew"
+            app:ms_dropdown_height="wrap_content"
+            app:ms_dropdown_max_height="350dp"
+            app:ms_hint_color="@color/colorPrimary"
+            app:ms_text_color="@color/colorPrimary" />
+
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/messageAuthorEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Author"
+            android:textColorHint="@color/colorPrimary"
+            app:ms_arrow_tint="@color/colorPrimary"
+            app:ms_background_color="@color/whitenew"
+            app:ms_dropdown_height="wrap_content"
+            app:ms_dropdown_max_height="350dp"
+            app:ms_hint_color="@color/colorPrimary"
+            app:ms_text_color="@color/colorPrimary" />
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnAddMessageEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l1login"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            fancy:fb_defaultColor="@color/colorAccentnew"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="Add Message"
+            fancy:fb_textColor="#FFFFFF"
+            fancy:fb_textSize="20sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="primedsoft.com.salvation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_MMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.ANSWER_PHONE_CALLS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_NUMBERS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.ANSWER_PHONE_CALLS"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".splashscreen"
+            android:label="D.I.C.L"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Welcome.WelcomeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Auth.Signup"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Auth.Login"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".landingpage.Home"
+            android:screenOrientation="portrait"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".Activities.PdfReader"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PlayerActivtiy"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.GenreListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_genre_list"
+            android:parentActivityName=".splashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="PARENT_ACTIVITY"
+                android:value=".splashscreen" />
+        </activity>
+        <activity
+            android:name=".Activities.AllMessageActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_all_message"
+            android:parentActivityName=".splashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="PARENT_ACTIVITY"
+                android:value=".splashscreen" />
+        </activity>
+        <activity
+            android:name=".Auth.AdminLogin"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.AdminDashBoard" />
+        <activity
+            android:name=".Activities.AddMessage"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.AddSpecialOffer"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".Activities.FullScreenImage" />
+        <activity android:name=".Activities.AddDebitCard" />
+        <activity android:name=".Activities.AllUsers" />
+        <activity
+            android:name=".Activities.MessageEdit"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".Activities.AdminAllMessage"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_admin_all_message"
+            android:parentActivityName=".splashscreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="PARENT_ACTIVITY"
+                android:value=".splashscreen" />
+        </activity>
+        <activity
+            android:name=".Activities.AddAdmin"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".Activities.PaymentActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".Activities.OfflineAudioPlayer"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.VideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.OfflinPdfReader"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.AllBoughtMessage"></activity>
+    </application>
+
+</manifest>

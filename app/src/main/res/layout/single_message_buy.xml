@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="36dp"
+    android:paddingRight="36dp"
+    android:paddingBottom="16dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_back"
+        android:id="@+id/imgBack"
+        android:layout_marginTop="10dp" />
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="180dp">
+        <ImageView
+            android:id="@+id/buyImageThumbNail"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <jp.shts.android.library.TriangleLabelView
+            android:id="@+id/triangularLabelBuy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            app:backgroundColor="#d4ab23"
+            app:corner="rightTop"
+            app:labelBottomPadding="5dp"
+            app:labelCenterPadding="7dp"
+            app:labelTopPadding="10dp"
+            app:primaryText="Video"
+            app:primaryTextColor="#000"
+            app:primaryTextSize="16sp"
+            app:secondaryTextSize="11sp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:id="@+id/messageTitle"
+        android:layout_height="wrap_content"
+        android:text="Message Title"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/trebucbd"
+        android:textSize="16sp" />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/messageBuyAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pastor Ibiyeomie"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/trebucbd"
+        android:textSize="12sp" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btnPlay"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_defaultColor="@color/colorAccentnew"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        fancy:fb_text="Watch"
+        fancy:fb_textColor="#d4ab23"
+        fancy:fb_iconResource="@drawable/ic_play"
+        fancy:fb_iconPosition="left"
+        fancy:fb_textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fancy:fb_radius="30dp"/>
+
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btnBuy"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_defaultColor="#000099cc"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        fancy:fb_text="BUY PRICE"
+        fancy:fb_textColor="#d4ab23"
+        fancy:fb_textSize="12sp"
+        fancy:fb_borderWidth = "2dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        fancy:fb_borderColor ="#74d4ab23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fancy:fb_radius="30dp"/>
+
+
+</LinearLayout>

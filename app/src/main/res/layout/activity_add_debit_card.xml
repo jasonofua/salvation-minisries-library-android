@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddDebitCard">
+
+    <com.braintreepayments.cardform.view.CardForm
+        android:id="@+id/card_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tilEdtName"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_above="@+id/btnAddCard"
+        android:id="@+id/tilEdtName"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="CARD HOLDER NAME"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:id="@+id/edtCardName"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btnAddCard"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_defaultColor="@color/colorAccentnew"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        fancy:fb_text="Add Debit Card"
+        fancy:fb_textColor="#fff"
+        fancy:fb_textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fancy:fb_radius="30dp"/>
+
+</RelativeLayout>

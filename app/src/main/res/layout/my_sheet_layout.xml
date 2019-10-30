@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#09c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free Gift for you "
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/trebucbd"
+        android:textSize="22sp" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoy our welcome gift to you.
+A powerful teaching on prosperity by Pastor David"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/trebucbd"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="200dp">
+        <ImageView
+            android:id="@+id/circleimage"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <jp.shts.android.library.TriangleLabelView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            app:backgroundColor="#d4ab23"
+            app:corner="rightTop"
+            app:labelBottomPadding="5dp"
+            app:labelCenterPadding="7dp"
+            app:labelTopPadding="10dp"
+            app:primaryText="Video"
+            app:primaryTextColor="#000"
+            app:primaryTextSize="16sp"
+            app:secondaryTextSize="11sp" />
+
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnGOtIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="end"
+        android:background="#fff"
+        android:text="ok,got it"
+        android:textColor="@color/colorAccentnew"
+        />
+
+
+</LinearLayout>
