@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="primedsoft.com.salvation">
+    package="salvation.com.salvationministries">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission
         android:name="android.permission.READ_SMS"
         tools:node="remove" />
@@ -42,7 +43,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name=".App"
+        android:name="salvation.com.salvationministries.App"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/logo"
@@ -52,7 +53,7 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:replace="android:allowBackup">
         <activity
-            android:name=".splashscreen"
+            android:name="salvation.com.salvationministries.splashscreen"
             android:label="D.I.C.L"
             android:noHistory="true"
             android:screenOrientation="portrait"
@@ -64,41 +65,41 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Welcome.WelcomeActivity"
+            android:name="salvation.com.salvationministries.Welcome.WelcomeActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Auth.Signup"
+            android:name="salvation.com.salvationministries.Auth.Signup"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Auth.Login"
+            android:name="salvation.com.salvationministries.Auth.Login"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".landingpage.Home"
+            android:name="salvation.com.salvationministries.landingpage.Home"
             android:screenOrientation="portrait"
             tools:ignore="DuplicateActivity" />
         <activity
-            android:name=".Activities.PdfReader"
+            android:name="salvation.com.salvationministries.Activities.PdfReader"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.PlayerActivtiy"
+            android:name="salvation.com.salvationministries.Activities.PlayerActivtiy"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.ProfileActivity"
+            android:name="salvation.com.salvationministries.Activities.ProfileActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.GenreListActivity"
+            android:name="salvation.com.salvationministries.Activities.GenreListActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_genre_list"
-            android:parentActivityName=".splashscreen"
+            android:parentActivityName="salvation.com.salvationministries.splashscreen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -106,10 +107,10 @@
                 android:value=".splashscreen" />
         </activity>
         <activity
-            android:name=".Activities.AllMessageActivity"
+            android:name="salvation.com.salvationministries.Activities.AllMessageActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_all_message"
-            android:parentActivityName=".splashscreen"
+            android:parentActivityName="salvation.com.salvationministries.splashscreen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -117,52 +118,52 @@
                 android:value=".splashscreen" />
         </activity>
         <activity
-            android:name=".Auth.AdminLogin"
+            android:name="salvation.com.salvationministries.Auth.AdminLogin"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Activities.AdminDashBoard" />
+        <activity android:name="salvation.com.salvationministries.Activities.AdminDashBoard" />
         <activity
-            android:name=".Activities.AddMessage"
+            android:name="salvation.com.salvationministries.Activities.AddMessage"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.AddSpecialOffer"
+            android:name="salvation.com.salvationministries.Activities.AddSpecialOffer"
             android:configChanges="orientation|screenSize|keyboardHidden" />
-        <activity android:name=".Activities.FullScreenImage" />
-        <activity android:name=".Activities.AddDebitCard" />
-        <activity android:name=".Activities.AllUsers" />
+        <activity android:name="salvation.com.salvationministries.Activities.FullScreenImage" />
+        <activity android:name="salvation.com.salvationministries.Activities.AddDebitCard" />
+        <activity android:name="salvation.com.salvationministries.Activities.AllUsers" />
         <activity
-            android:name=".Activities.MessageEdit"
+            android:name="salvation.com.salvationministries.Activities.MessageEdit"
             android:configChanges="orientation|screenSize|keyboardHidden" />
         <activity
-            android:name=".Activities.AdminAllMessage"
+            android:name="salvation.com.salvationministries.Activities.AdminAllMessage"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_admin_all_message"
-            android:parentActivityName=".splashscreen"
+            android:parentActivityName="salvation.com.salvationministries.splashscreen"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="PARENT_ACTIVITY"
                 android:value=".splashscreen" />
         </activity>
         <activity
-            android:name=".Activities.AddAdmin"
+            android:name="salvation.com.salvationministries.Activities.AddAdmin"
             android:configChanges="orientation|screenSize|keyboardHidden" />
         <activity
-            android:name=".Activities.PaymentActivity"
+            android:name="salvation.com.salvationministries.Activities.PaymentActivity"
             android:configChanges="orientation|screenSize|keyboardHidden" />
         <activity
-            android:name=".Activities.OfflineAudioPlayer"
+            android:name="salvation.com.salvationministries.Activities.OfflineAudioPlayer"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.VideoActivity"
+            android:name="salvation.com.salvationministries.Activities.VideoActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.OfflinPdfReader"
+            android:name="salvation.com.salvationministries.Activities.OfflinPdfReader"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Activities.AllBoughtMessage"></activity>
+        <activity android:name="salvation.com.salvationministries.Activities.AllBoughtMessage"></activity>
     </application>
 
 </manifest>

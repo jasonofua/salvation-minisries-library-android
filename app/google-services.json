@@ -32,10 +32,10 @@
               "client_type": 3
             },
             {
-              "client_id": "818900997561-2rve63lo8l9c7pj925c5ch8hpqdvifl6.apps.googleusercontent.com",
+              "client_id": "818900997561-t5gnnhef5f5vtglo2jqgeuipirpi3huv.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.primedsoft.salvationMinistriesLibrary"
+                "bundle_id": "com.primedsoft.salvationmin"
               }
             }
           ]
@@ -76,10 +76,10 @@
               "client_type": 3
             },
             {
-              "client_id": "818900997561-2rve63lo8l9c7pj925c5ch8hpqdvifl6.apps.googleusercontent.com",
+              "client_id": "818900997561-t5gnnhef5f5vtglo2jqgeuipirpi3huv.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.primedsoft.salvationMinistriesLibrary"
+                "bundle_id": "com.primedsoft.salvationmin"
               }
             }
           ]
@@ -120,10 +120,10 @@
               "client_type": 3
             },
             {
-              "client_id": "818900997561-2rve63lo8l9c7pj925c5ch8hpqdvifl6.apps.googleusercontent.com",
+              "client_id": "818900997561-t5gnnhef5f5vtglo2jqgeuipirpi3huv.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.primedsoft.salvationMinistriesLibrary"
+                "bundle_id": "com.primedsoft.salvationmin"
               }
             }
           ]
@@ -164,10 +164,98 @@
               "client_type": 3
             },
             {
-              "client_id": "818900997561-2rve63lo8l9c7pj925c5ch8hpqdvifl6.apps.googleusercontent.com",
+              "client_id": "818900997561-t5gnnhef5f5vtglo2jqgeuipirpi3huv.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.primedsoft.salvationMinistriesLibrary"
+                "bundle_id": "com.primedsoft.salvationmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818900997561:android:f4396783ca9d992ff9d268",
+        "android_client_info": {
+          "package_name": "salvation.com.salvation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818900997561-29j6l75hj9tam8opue3cdicn5j67vqfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "salvation.com.salvation",
+            "certificate_hash": "90058126071268fe3de3c2f4c7b29d1f6527da0e"
+          }
+        },
+        {
+          "client_id": "818900997561-4fsalgof2rce56413oe4i8jhfghr0cn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe5zkTIfUBzUGxExBXqOtm1az2vcalg_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818900997561-4fsalgof2rce56413oe4i8jhfghr0cn3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "818900997561-t5gnnhef5f5vtglo2jqgeuipirpi3huv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.primedsoft.salvationmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818900997561:android:056849cd37503ec4f9d268",
+        "android_client_info": {
+          "package_name": "salvation.com.salvationministries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818900997561-t7jpridf773n253vi2n4m91cek7ifmno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "salvation.com.salvationministries",
+            "certificate_hash": "90058126071268fe3de3c2f4c7b29d1f6527da0e"
+          }
+        },
+        {
+          "client_id": "818900997561-4fsalgof2rce56413oe4i8jhfghr0cn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe5zkTIfUBzUGxExBXqOtm1az2vcalg_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818900997561-4fsalgof2rce56413oe4i8jhfghr0cn3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "818900997561-t5gnnhef5f5vtglo2jqgeuipirpi3huv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.primedsoft.salvationmin"
               }
             }
           ]

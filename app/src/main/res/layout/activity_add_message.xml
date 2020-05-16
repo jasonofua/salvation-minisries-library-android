@@ -99,6 +99,22 @@
                 android:textColor="#000"
                 android:textColorHint="#000" />
         </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilMessagePoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/whitenew">
+
+            <EditText
+                android:id="@+id/edtMessagePoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Message Points"
+                android:inputType="text|numberDecimal"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+        </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/tilMessagePriceNaira"

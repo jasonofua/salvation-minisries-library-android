@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".landingpage.Tab5">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="FAQ"
+        android:id="@+id/tFaq"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_below="@id/tFaq"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+
+
+
+
+</RelativeLayout>

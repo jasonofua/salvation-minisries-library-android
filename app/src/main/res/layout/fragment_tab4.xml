@@ -60,7 +60,7 @@
         android:textColor="#fff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HELP"
+        android:text="CONTACT US"
         android:id="@+id/txtHelp"
         android:textStyle="bold"
         android:fontFamily="@font/trebucbd"
